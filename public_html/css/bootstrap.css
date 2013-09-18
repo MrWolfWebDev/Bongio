@@ -69,6 +69,7 @@ html {
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    height: 100%;
 }
 
 a:focus {
@@ -228,6 +229,7 @@ body {
     line-height: 20px;
     color: #333333;
     background-color: #ffffff;
+    height: 100%;
 }
 
 a {
@@ -650,6 +652,7 @@ a:focus {
 
 p {
     margin: 0 0 10px;
+    text-align: justify;
 }
 
 .lead {
@@ -6125,10 +6128,11 @@ to {
     font-weight: 200;
     line-height: 30px;
     color: inherit;
-    background-color: azure;
+    background-color: #eeeeee;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
+    margin-top: 50px;
 }
 
 .hero-unit h1 {
@@ -6136,7 +6140,7 @@ to {
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
-    color: inherit;
+    color: dodgerblue;
 }
 
 .hero-unit li {
@@ -6165,4 +6169,28 @@ to {
 
 .affix {
     position: fixed;
+}
+
+#footer {
+
+    background-color: #333333;
+    height: 150px;
+    position: relative;
+    clear: both;
+    margin-top: -150px;
+}
+
+.hero-unit p {
+
+    text-align: right;
+}
+
+.container p {
+
+    color: #666666;
+}
+
+#footer p {
+
+    text-align: center;
 }
